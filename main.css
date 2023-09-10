@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 
-/* SEO */
+/* This is an SEO Change */
 body {
     font-size: 12px;
     font-family: Tahoma, Arial;
@@ -115,4 +115,10 @@ header.hero h2 {
     .container .div.text-box {
         margin: 10px;
     }
+}
+
+img {
+    width: 150px;
+    height: 40px;
+    float: right;
 }
