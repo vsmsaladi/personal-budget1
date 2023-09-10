@@ -55,6 +55,12 @@ nav ul li a:hover  {
     color: #4d5791;
 }
 
+img {
+    width: 150px;
+    height: 40px;
+    float: right;
+}
+
 header.hero {
     height: 350px;
     background-color: #b4c6f0;
@@ -115,10 +121,4 @@ header.hero h2 {
     .container .div.text-box {
         margin: 10px;
     }
-}
-
-img {
-    width: 150px;
-    height: 40px;
-    float: right;
 }
