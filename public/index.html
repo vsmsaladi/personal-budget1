@@ -138,6 +138,14 @@
         svg.append("g")
             .attr("class", "lines");
 
+        // var chartContainer = document.getElementById("pie-chart");
+        // var containerWidth = chartContainer.clientWidth;
+        // var containerHeight = chartContainer.clientHeight;
+
+        // var width = containerWidth,
+        //     height = containerHeight,
+        //     radius = Math.min(width, height) / 2;
+
         var width = 650,
             height = 300,
             radius = Math.min(width, height) / 2;
@@ -270,7 +278,7 @@
 
 
         function getBudget() {
-            axios.get('/budget')
+            axios.get('http://localhost:3000/budget')
                 .then(function (res) {
                     for (var i = 0; i < res.data.length; i++) {
                         dataSource.datasets[0].data[i] = res.data[i].budget;
